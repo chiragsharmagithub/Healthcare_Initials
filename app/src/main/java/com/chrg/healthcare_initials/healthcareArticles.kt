@@ -11,7 +11,7 @@ import android.widget.BaseAdapter
 import kotlinx.android.synthetic.main.activity_search_doctor.*
 import kotlinx.android.synthetic.main.healthcare_info.view.*
 
-class healthcareFacility : AppCompatActivity() {
+class healthcareArticles : AppCompatActivity() {
 
     var listOfhealthcareFacility = ArrayList<Healthcare>()
     private var adapter:HealthcareAdapter?=null
@@ -19,10 +19,11 @@ class healthcareFacility : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search_doctor)
 
-        listOfhealthcareFacility.add(Healthcare("Nursing Aid", "This healthcare facility focuses on providing good nursing aid/Care not First-aid.", R.drawable.nc))
-        listOfhealthcareFacility.add(Healthcare("Nutritional Support", "This facility allows general public to have proper nutritional support", R.drawable.ns))
-        listOfhealthcareFacility.add(Healthcare("Home Delivery Meals", "This feature focuses on delivering healthy meals at your door step ", R.drawable.hdm))
-        listOfhealthcareFacility.add(Healthcare("Tracking Services", "Tracking of both patient & healthcare services", R.drawable.ts))
+        listOfhealthcareFacility.add(Healthcare("CoronaVirus - COVID-19", "The purpose of this document is to provide a practical guide for the UNCTs and partners to develop a CPRP to immediately support national governments to prepare for and respond to COVID‑19. ", R.drawable.corona))
+        listOfhealthcareFacility.add(Healthcare("AI yields new Antibiotic", "An antibiotic is a type of antimicrobial substance active against bacteria and is the most important type of antibacterial agent for fighting bacterial infections. Antibiotic medications are widely used in the treatment and prevention of such infections. ", R.drawable.antibiotic))
+        listOfhealthcareFacility.add(Healthcare("Immune System", "The immune system is a complex network of cells and proteins that defends the body against infection. The immune system keeps a record of every germ (microbe) it has ever defeated so it can recognise and destroy the microbe quickly if it enters the body again.", R.drawable.immune))
+        listOfhealthcareFacility.add(Healthcare("Aging in Cells", "Cellular ageing is generally defined as the progressive decline in the resistance to stress and other cellular damages, causing a gradual loss of cellular functions and resulting eventually in cell death.", R.drawable.aging))
+        listOfhealthcareFacility.add(Healthcare("Scientists monitor brain cells", "The brain and spinal cord are made up of many cells, including neurons and glial cells. Neurons are cells that send and receive electro-chemical signals to and from the brain and nervous system. ", R.drawable.brain))
 
 
         adapter = HealthcareAdapter(this, listOfhealthcareFacility)

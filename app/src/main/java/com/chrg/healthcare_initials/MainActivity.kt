@@ -28,6 +28,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, healthcareFacility::class.java)
             startActivity(intent)
         }
+        val button3: Button = findViewById(R.id.buCheckup)
+        button3.setOnClickListener {
+            val intent = Intent(this, checkup::class.java)
+            startActivity(intent)
+        }
+
+        val button4: Button = findViewById(R.id.buheathArticle)
+        button4.setOnClickListener {
+            val intent = Intent(this, healthcareArticles::class.java)
+            startActivity(intent)
+        }
     }
 
 

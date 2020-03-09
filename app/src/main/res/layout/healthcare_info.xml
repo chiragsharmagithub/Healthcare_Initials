@@ -4,23 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/darkTheme"
+
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/ivHealthcareImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/banner2" />
+        android:layout_weight="24"
+        app:srcCompat="@drawable/banner2"
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/tvHealthcareName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="4"
         android:background="#FFFFFF"
         android:gravity="center"
+        android:textSize="16pt"
         android:text="Name of Healthcare Facility" />
 
     <TextView
@@ -28,9 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"
+        android:layout_weight="16"
         android:background="#FFFFFF"
-        android:gravity="center"
+        android:gravity="left"
+        android:padding="8pt"
         android:text="Description" />
 
     <Button
@@ -39,6 +42,5 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@color/greenButton"
-        android:text="Book Appointment"
-        android:textSize="24sp" />
+        android:text="Book Appointment" />
 </LinearLayout>
