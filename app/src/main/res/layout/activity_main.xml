@@ -12,7 +12,7 @@
 
     <ImageView
 
-        android:id="@+id/imageView2"
+        android:id="@+id/ivBanner"
         android:layout_width="match_parent"
         android:layout_height="100pt"
         android:layout_weight="7"
@@ -25,14 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <EditText
+
+        <TextView
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
             android:ems="10"
-            android:inputType="textPersonName"
             android:padding="10pt"
+            android:textSize="10pt"
             android:text="What are you looking for?"
             android:textColor="#000000" />
 
@@ -58,7 +58,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ivSearchDoc"
                 android:layout_width="50pt"
                 android:layout_height="50pt"
                 android:layout_gravity="center"
@@ -87,7 +87,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/ivFaculty"
                 android:layout_width="50pt"
                 android:layout_height="50pt"
                 android:layout_marginTop="8pt"
@@ -126,7 +126,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/checkupImg"
+                android:id="@+id/ivCheckup"
                 android:layout_width="50pt"
                 android:layout_height="50pt"
                 android:layout_marginTop="8pt"
@@ -186,7 +186,7 @@
         >
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buEHR"
             android:layout_width="match_parent"
             android:layout_height="25pt"
             android:background="#007acc"

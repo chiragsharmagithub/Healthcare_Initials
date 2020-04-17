@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
     <color name="darkTheme">#121212</color>
     <color name="darkTheme2">#303030</color>
     <color name="greenButton">#00cc0a</color>
-    <color name="white">#f6f6f6</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Dark_gray">#4d4d4d</color>
+    <color name="dark">#121212</color>
+    <color name="gold">#FFD700</color>
+    <color name="first">#BB86FC</color>
+    <color name="second">#03DAC5</color>
+    <color name="gray">#d8d8d8</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGreen">#ccffcc</color>
+    <color name="dark_blue">#005ce6</color>
+    <color name="green2">#73e600</color>
+    <color name="blue1">#09C6F9</color>
+    <color name="blue2">#045DE9</color>
+    <color name="blue1_half">#8009C6F9</color>
+    <color name="blue2_half">#80045DE9</color>
+    <color name="transparent1">#80000000</color>
+    <color name="transparentHalf">#7F000000</color>
+    <color name="transparentFull">#00000000</color>
+    <color name="Opaque">#FF000000</color>
+    <color name="transparent2">#B3000000</color>
+    <color name="purpleLove1">#cc2b5e</color>
+    <color name="purpleLove2">#753a88</color>
+    <color name="lush1">#56ab2f</color>
+    <color name="lush2">#a8e063</color>
+    <color name="scooter1">#36d1dc</color>
+    <color name="scooter2">#5b86e5</color>
+    <color name="tonight1">#aa076b</color>
+    <color name="tonight2">#61045f</color>
+    <color name="piglet1">#ee9ca7</color>
+    <color name="piglet2">#ffdde1</color>
 </resources>
