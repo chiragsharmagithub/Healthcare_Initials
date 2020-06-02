@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/wallaper3a"
+android:padding="10pt"
+android:orientation="vertical"
+tools:context=".edit_user_data">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="User Data Records"
+    android:padding="10pt"
+    android:background="@drawable/bg4"
+    android:layout_marginBottom="0pt"
+    android:gravity="center"
+    android:textSize="12pt"/>
+
+<LinearLayout
+    android:background="@drawable/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5pt"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/etuEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="2pt"
+        android:hint="Enter Name"
+         />
+
+    <EditText
+        android:id="@+id/etuEditGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="2pt"
+        android:hint="Enter Gender"
+        />
+
+    <EditText
+        android:id="@+id/etuEditBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="2pt"
+        android:hint="Enter Blood group"
+        />
+
+    <EditText
+        android:id="@+id/etuEditPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="2pt"
+        android:hint="Enter Phone"
+        />
+
+    <EditText
+        android:id="@+id/etuEditmStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="2pt"
+        android:hint="Enter marital status"
+        />
+    <EditText
+        android:id="@+id/etuEditHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="2pt"
+        android:inputType="date"
+        android:hint="Enter Height(in cm)"
+        />
+
+    <EditText
+        android:id="@+id/etuEditWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/bg2"
+        android:padding="0pt"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginBottom="10pt"
+        android:hint="Enter Weight(in KG)"
+        />
+
+    <Button
+        android:id="@+id/EditUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25pt"
+        android:paddingRight="25pt"
+        android:textSize="10pt"
+        android:textColor="@color/white"
+        android:background="@drawable/bg5"
+        android:layout_marginBottom="20pt"
+        android:onClick="userDataSubmit"
+        android:text="Update data"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

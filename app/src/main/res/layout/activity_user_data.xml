@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallaper3a"
+    android:gravity="center"
+    android:padding="20pt"
+    android:layout_height="match_parent"
+    tools:context=".UserData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER'S DATA"
+        android:background="@drawable/background1"
+        android:gravity="center"
+        android:padding="10pt"
+        android:layout_marginBottom="40pt"
+        android:textSize="15pt"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view"
+        android:background="@drawable/background4"
+        android:textSize="12pt"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20pt"
+        android:padding="10pt"
+        android:onClick="goToView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="edit"
+        android:textSize="12pt"
+        android:layout_marginBottom="20pt"
+        android:background="@drawable/background9"
+        android:padding="10pt"
+        android:textColor="@color/white"
+        android:onClick="toEditData"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="156dp" />
+
+
+</LinearLayout>

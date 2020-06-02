@@ -1,2 +1,2 @@
-rootProject.name='HealthCare_Initials'
+rootProject.name='smartHealthcareAssistant'
 include ':app'

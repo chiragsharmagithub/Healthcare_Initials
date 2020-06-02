@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper2"
+    android:padding="10pt"
+    tools:context=".CategoryPage">
+
+    <TextView
+        android:layout_marginTop="6pt"
+        android:layout_marginBottom="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background1"
+        android:text="Doctors"
+        android:textColor="@color/dark"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:padding="10pt"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background6"
+        android:id="@+id/lvDocTypes"/>
+
+</LinearLayout>

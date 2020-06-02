@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">HealthCare_Initials</string>
+    <string name="app_name">Smart Healthcare Assistant</string>
+    <string name="userName">Chirag Sharma</string>
+    <string name="userPhoneNumbert">9878765451</string>
+    <string name="userEmail">chirag.sharma2016@vitstudent.ac.in</string>
+    <string name="userTransactionID">PAYCASH9876BAC123</string>
+    <string name="error_message_email">"Error in Email</string>
+    <string name="error_message_name">"Error in Username</string>
+    <string name="error_message_password">"Error in Password</string>
+    <string name="error_password_match">"Error in Password matching</string>
+    <string name="success_message">"Successful!!</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>

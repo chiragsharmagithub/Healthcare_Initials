@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:paddingTop="4pt"
+    android:paddingLeft="6pt"
+    android:paddingRight="6pt"
+    tools:context=".ConfirmationPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBackToMain"
+            android:layout_width="20pt"
+            android:layout_height="20pt"
+            android:onClick="goToMainPage"
+            android:background="@drawable/round_cancel_white_18dp"/>
+
+        <TextView
+            android:layout_marginTop="6pt"
+            android:layout_marginBottom="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background1"
+            android:text="Booking Confirmed 👍"
+            android:textColor="@color/dark"
+            android:gravity="center"
+            android:textSize="12pt"
+            android:padding="10pt"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0pt"
+        android:background="@drawable/background2"
+        android:padding="4pt"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:layout_marginBottom="7pt"
+            android:text="Appointment Details:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="8pt"
+            android:text="User name:"/>
+        <TextView
+            android:id="@+id/tvNameBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dark_gray"
+            android:layout_marginLeft="10pt"
+            android:textSize="10pt"
+            android:text="ABCD"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="8pt"
+            android:text="Phone number:"/>
+        <TextView
+            android:id="@+id/tvPhoneBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dark_gray"
+            android:layout_marginLeft="10pt"
+            android:textSize="10pt"
+            android:text="7894456532"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="8pt"
+            android:text="Email:"/>
+        <TextView
+            android:id="@+id/tvEmailBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dark_gray"
+            android:layout_marginLeft="10pt"
+            android:textSize="10pt"
+            android:text="abcd@gmail.com"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="8pt"
+            android:text="Healthcare Faculty name:"/>
+        <TextView
+            android:id="@+id/tvHCNameBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dark_gray"
+            android:layout_marginLeft="10pt"
+            android:textSize="10pt"
+            android:text="XYZ"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="8pt"
+            android:text="Appointment Schedule:"/>
+        <TextView
+            android:id="@+id/tvTimingBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dark_gray"
+            android:layout_marginLeft="10pt"
+            android:textSize="10pt"
+            android:text="Venue\nXX am/pm - Date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:textSize="8pt"
+            android:text="Transaction ID:"/>
+        <TextView
+            android:id="@+id/tvTransactionIDBooked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Dark_gray"
+            android:layout_marginLeft="10pt"
+            android:textSize="10pt"
+            android:text="12345ABCD"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

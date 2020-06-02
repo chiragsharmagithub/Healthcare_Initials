@@ -1,91 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:padding="10pt"
     android:orientation="vertical"
-    tools:context=".loginPage">
+    tools:context=".LoginPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10pt"
+        android:padding="10pt"
+        android:gravity="center"
+        android:background="@drawable/bg4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN PAGE"
+            android:paddingRight="10pt"
+            android:gravity="center"
+            android:textSize="12pt"/>
+
+    </LinearLayout>
 
 
     <LinearLayout
-        android:weightSum="10"
+        android:padding="5pt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/bg1"
         android:orientation="vertical"
-        android:gravity="center"
-        android:background="@drawable/login_background">
+        android:gravity="center">
 
-        <LinearLayout
-            android:layout_width="100pt"
-            android:layout_height="100pt"
-            android:layout_marginBottom="15pt"
-            android:background="@drawable/login_background5"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="10pt"
-            android:weightSum="4">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="4pt"
-                android:text="Upload Image"
-                android:textColor="@color/white"
-                android:textSize="10pt" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:weightSum="6"
+        <EditText
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/login_background2"
-            android:orientation="vertical"
-            android:padding="10pt">
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/bg2"
+            android:padding="3pt"
+            android:textSize="12pt"
+            android:gravity="center"
+            android:layout_marginBottom="10pt"
 
-            <EditText
-                android:id="@+id/editText2"
+            android:hint="Enter Email"/>
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:layout_marginTop="20pt"
-                android:textSize="10pt"
-                android:padding="5pt"
-                android:gravity="center"
-                android:background="@drawable/login_background3"
-                android:hint="Enter your email"
-                android:inputType="textPersonName"
-                android:textColor="@color/white" />
 
-            <EditText
-                android:id="@+id/editText3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:layout_marginTop="10pt"
-                android:textSize="10pt"
-                android:padding="5pt"
-                android:gravity="center"
-                android:background="@drawable/login_background3"
-                android:hint="Enter password"
-                android:inputType="textPassword"
-                android:textColor="@color/white" />
 
-            <Button
-                android:id="@+id/button"
-                android:layout_gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="10pt"
-                android:layout_marginTop="30pt"
-                android:padding="5pt"
-                android:gravity="center"
-                android:textColor="@color/white"
-                android:background="@drawable/login_background4"
-                android:text="login" />
-        </LinearLayout>
+        <EditText
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25pt"
+            android:gravity="center"
+            android:background="@drawable/bg2"
+            android:padding="3pt"
+            android:textSize="12pt"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg5"
+            android:textColor="@color/white"
+            android:paddingLeft="25pt"
+            android:paddingRight="25pt"
+            android:text="Login"
+            android:textSize="10pt"
+            android:layout_marginBottom="30pt"
+            android:onClick="buLogin"
+            android:id="@+id/appCompatButtonLogin"/>
+
+        <TextView
+            android:id="@+id/textViewLinkRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg2"
+            android:paddingTop="4pt"
+            android:paddingBottom="4pt"
+            android:paddingLeft="8pt"
+            android:paddingRight="8pt"
+            android:textSize="7pt"
+            android:gravity="center"
+            android:onClick="toRegistrationPage"
+            android:text="New User ?"/>
+
+        <TextView
+            android:layout_marginTop="5pt"
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg2"
+            android:paddingTop="4pt"
+            android:paddingBottom="4pt"
+            android:paddingLeft="8pt"
+            android:paddingRight="8pt"
+            android:textSize="7pt"
+            android:gravity="center"
+            android:onClick="toMain"
+            android:text="SKIP"/>
 
     </LinearLayout>
 

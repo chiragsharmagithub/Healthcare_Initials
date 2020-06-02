@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallaper5"
+    android:padding="8pt"
+    android:orientation="vertical"
+    tools:context=".pay_and_book">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background6"
+        android:layout_marginBottom="10pt"
+        android:padding="10pt"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90pt"
+            android:layout_height="90pt"
+            android:id="@+id/ivHCProfileImage"
+            android:src="@drawable/avatar"     />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvHCName"
+            android:layout_marginTop="10pt"
+            android:textSize="10pt"
+            android:textColor="@color/dark"
+            android:text="Name of the HC faculty"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="9pt"
+            android:layout_marginTop="10pt"
+            android:text="Speciality:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvHCSpeciality"
+            android:textSize="9pt"
+            android:layout_marginTop="1pt"
+            android:text="Speciality"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvHCDescription"
+            android:layout_marginTop="3pt"
+            android:textSize="8pt"
+            android:text="Description of the HC faculty"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvHCTimings"
+            android:textSize="8pt"
+            android:layout_marginTop="8pt"
+            android:text="Timings of the faculty"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background6"
+        android:gravity="center"
+        android:padding="10pt"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15pt"
+
+            android:text="Pay amount:"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:id="@+id/tvHCCost"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/paymentMode"
+            android:layout_marginTop="8pt"
+            android:background="@drawable/background2"
+            android:text="Cash"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

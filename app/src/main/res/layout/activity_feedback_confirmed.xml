@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    android:padding="10pt"
+    tools:context=".FeedbackConfirmed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10pt"
+        android:background="@drawable/background6"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="50pt"
+            android:layout_marginBottom="30pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background1"
+            android:text="Feedback\n\n Submitted"
+            android:textColor="@color/dark"
+            android:gravity="center"
+            android:textSize="12pt"
+            android:padding="10pt"
+            />
+
+        <Button
+            android:id="@+id/gotoMainPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10pt"
+            android:background="@drawable/background7"
+            android:padding="5pt"
+            android:text="Click here for\nMain Page"
+            android:textColor="@color/white"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

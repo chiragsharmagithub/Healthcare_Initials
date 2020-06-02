@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766108715359",
+    "firebase_url": "https://smarthealthcareassistant.firebaseio.com",
+    "project_id": "smarthealthcareassistant",
+    "storage_bucket": "smarthealthcareassistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766108715359:android:5bd73211a54b9c085d0eea",
+        "android_client_info": {
+          "package_name": "com.chrg.smarthealthcareassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766108715359-d21ksrknik56uo206a0egd1ocr5eqv2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVu9Ui4LCUL6f1nFIQUMhms0_Mrr_uFOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766108715359-d21ksrknik56uo206a0egd1ocr5eqv2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
